@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" placeholder="ener username" name="query">
+        </div>
+        <div>
+            <label for="password">enter your password</label>
+            <input type="password" id="password" placeholder="enter password" name="password">
+        </div>
+            email:<input type="email"/>
+        <br>
+            Date of Birth:<input type="date"/>
+        <br>
+            color : <input type="color"/>
+        <br>
+            <button type="submit">submit</button>
+            <button type="button">hello</button>
+            <button type="reset">reset</button>
+        <br>
+            <input type="button" value="click me">
+        <div>
+            choose your subjects:
+            <input type="checkbox" name="sub" id="math" value="math">
+            <label for="math">Maths</label>  
+            <input type="checkbox" name="sub" id="eng" value="eng">
+            <label for="eng">English</label>  
+            <input type="checkbox" name="sub" id="sci" value="sci">
+            <label for="sci">Science</label>  
+        </div>
+            <div>
+        <input type="radio" name="option" id="yes" value="yes">
+        <label for="yes">yes</label>
+        <input type="radio" name="option" id="no" value="no">
+        <label for="no">no</label> 
+        <button>submit</button> 
+        </div> 
+        <div>
+            choose your profession:
+            <select name="profession" id="profession">
+                <option value="student">student</option>
+                <option value="" selected>choose your option</option>
+                <option value="doctor">doctor</option>
+                <option value="engineer">engineer</option>
+                <option value="unemployed">unemployed</option>
+                <option value="artist">artist</option>
+            </select> 
+        </div> 
+        <div>
+           <label for="audio">volume</label>   
+           <input type="range" id="audio" min="0" max="100" value="20" name="volume">
+            </range>
+        </div>
+        <br>
+        <label for="text">enter your feedback</label>
+        <textarea id="test" placeholder="enter your feedback" rows="10" cols="20" name="feedback"></textarea>/
+        </form>
+
+        <hr>
+            <form action ="https://www.youtube.com/results">
+                <input type="text" placeholder="search in youtube" name="search_query" />
+                <button>search</button>
+        </form>
+</body>
+</html>
