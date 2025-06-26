@@ -1,0 +1,91 @@
+* { /* universal selector */
+   font-family: 'Courier New', Courier, monospace;
+}
+h1,h3{ /* element selector */ /* important cant be changed */
+    color: #b92b27 !important;
+}
+#login { 
+    background-color: white;
+}
+#signup{ /* id selector */
+    background-color: #b92b27;
+    color: white;
+}
+.upvote { /* class selector */
+    background-color: green;
+    color: white;
+}
+.post a{  
+    color: purple;
+    background-color: yellowgreen;
+}
+nav ul li a {   /* descendant selector */  
+    color: blueviolet;
+    background-color: lightgray;
+}
+p + h3 {/* adjacent sibling selector */
+    text-decoration: underline;
+}
+.upvote + button {
+    background-color: blue;
+    color: white;
+}
+ div > input {/* child combinators */
+    background-color: lightblue;
+}
+input[type="text"]{ /*attribute selector */
+    color: red;
+    background-color: lightgreen;
+}
+input[type="password"]{ /*attribute selector */
+     color: green;
+}
+#myId  p {
+    color: green;
+}
+button:hover {/* pseudeo class */
+    background-color: black;
+    color: white;
+}
+h3:hover {
+    color:darkgreen;
+    text-decoration: none;
+}
+button:active {
+    background-color: hotpink;
+}
+p:active{
+    color: red;
+    font-weight:900 ;
+}
+
+input[type="radio"]:checked + label {
+    font-weight:bold;
+    color:black;
+}
+div:nth-of-type(3n){
+    background-color: rgb(184, 232, 29);
+}
+h1::first-letter{
+    color: black;
+    font-size: 56px;
+}
+p::first-line {
+    color: blue;
+    
+}
+p::selection {
+    background-color: lightyellow;
+}
+h3 {
+    background-color: lightgray;
+}
+h3 {/* this is cascading property which overrides the previous h3 because of specificity is same */
+     background-color: lightgreen;
+}
+/*some rulesof specificity
+1. Inline style> Id > class > element 
+2.more selectors > less selector 
+3.if specificity is same than cascading propety is applied */
+/*  eg :- like we can see that login and signup button have  their own id that's why they are not affected by hover(pseudo element) (in line no. 44)  because it is having less specificity than id */ 
+/*like username have inline style so it will override the class and element selector (in line no. 36 to 39) */

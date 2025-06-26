@@ -1,0 +1,38 @@
+h1 {
+    text-align:center;
+    color: #000000;
+    font-weight: 800;
+    text-decoration: wavy #ff0000 underline;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: cursive;
+}
+h3 {
+    text-align:start;
+    color: red;
+    font-weight: normal;
+    text-decoration: dashed black underline  ;
+    font-size: 25px;
+    font-family:sans-serif;
+}
+p {
+    text-align:justify;
+    color: #009900 ;
+    font-weight: 500;
+    line-height: 3;
+    text-decoration: solid black underline ;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align:end;
+    color: #1cd5ea ;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: dotted red overline line-through;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+a {
+    text-decoration: none;
+}

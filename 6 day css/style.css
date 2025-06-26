@@ -1,0 +1,49 @@
+#out {
+    height: 150px;
+    width:500px;
+    border: solid;
+    border-color: red;
+    /* border-width: 5px;
+    border-bottom: 6px dashed blue;
+    border-right: 5px dotted palevioletred; */
+    border-radius: 10px;
+    border-top-right-radius: 30px;
+    padding: 20px; /* all side 20px */
+    padding-bottom: 5px;
+    margin-bottom:10px;
+    margin: 10px 20px 30px;
+    
+}
+h1 {
+    border:double purple 8px;
+    border-top: 5px solid green;
+    border-left: 4px double orange;
+    padding-left: 50px;
+    margin: 50px;
+    margin: 0;
+    display: inline;
+}
+button {
+    font-size: 50px;
+    border: 3px solid black;
+     margin-left: 500px;
+     margin: 10px 20px 30px 40px;
+     display: block;
+     padding-left: 2em;/* em is relative to the font-size of the element  or parent size*/
+     padding-right: 1em;
+}
+#outer {
+    width: 400px;
+    border: 5px solid yellow;
+    background-color:blueviolet;
+    margin:50px;
+}
+#blck {
+    width: 100px;
+    border: 5px solid yellow;
+    height: 100px;
+    background-color:green;
+    margin-left: 10% ;
+    display:inline-block;
+}
+

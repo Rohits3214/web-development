@@ -1,0 +1,12 @@
+div { 
+    background-color: lightgreen;
+}/* it will apply on all element under div becaus of inheritance*/
+form {
+    background-color: lightsalmon;
+}
+input  { /* we have to give command to inherit the parent prprties for input*/
+    background-color: inherit;
+}
+button {/* we have to give command to inherit the parent proprties for button*/
+    background-color: inherit;
+}
