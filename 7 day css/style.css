@@ -1,0 +1,20 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0);
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: 5s;
+}
+ #opacity {
+    opacity: 0.5;
+    background-color: rgba(0, 255, 0, 0.5);
+    height: 300px;
+    width: 200px;
+ } 
+  div:hover {
+    background-color: black;
+    border-radius: 50%; 
+  }
+ 
+ 
