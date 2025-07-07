@@ -1,0 +1,68 @@
+.table {
+    display:grid;
+    grid-gap: 10px;
+    grid-template-rows:repeat(12,1fr) ;
+    grid-template-columns: repeat(12,1fr);
+}
+.header {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+.sidebar {
+    background-color: pink;
+    grid-row: 2/11;
+    grid-column: 1/4;
+}
+.navbar {
+    background-color: pink;
+    grid-column: 4/10;
+}
+.ads {
+    background-color: pink;
+    grid-row: 2/11;
+    grid-column: 10/13;
+
+}
+.main {
+    background-color: pink;
+    grid-row: 3/11;
+    grid-column: 4/10;
+}
+.footer {
+    background-color: pink;
+    grid-column: 1/13;
+}
+@media(max-width: 720px){
+    .header {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+.sidebar {
+    background-color: pink;
+    grid-row: 3/12;
+    grid-column: 1/4;
+}
+.navbar {
+    background-color: pink;
+    grid-column: 1/13;
+}
+.ads {
+    background-color: pink;
+    grid-row: 12/13;
+    grid-column: 1/4;
+
+}
+.main {
+    background-color: pink;
+    grid-row: 3/12;
+    grid-column: 4/13;
+}
+.footer {
+    background-color: pink;
+    grid-column: 4/13;
+}
+    
+}
+    
