@@ -210,6 +210,7 @@ a {
     width: 25%;
     display: flex;
     align-items:center;
+    justify-content:center ;
 }
 .album-icon {
     width: 2.5rem;
@@ -313,4 +314,21 @@ a {
     height: 3.25rem;
     width: 3.25rem;
     margin-top: -11px;
+}
+
+.album-p1 {
+    font-weight: 800;
+    font-size: large;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    align-self: first baseline;
+}
+
+.album-p2 {
+    font-size: 16px;
+    position: relative;
+    right: 81px;
+    top: 10px;
+    align-self:last baseline;
+    opacity: 0.7;
 }
